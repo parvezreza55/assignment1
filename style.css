@@ -14,6 +14,7 @@
 .m-width {
   max-width: 1280px;
   margin: 0 auto;
+  background-color: rgba(241, 241, 243, 1);
 }
 .bg-green {
   background-color: #c6e4d6;
@@ -121,6 +122,7 @@
   margin-top: 32px;
   border: 1px solid rgba(14, 14, 14, 0.15);
   border-radius: 16px;
+  background-color: rgba(255, 255, 255, 1);
   padding: 34px 24px 48px 24px;
 }
 .section-comment1 {
@@ -145,3 +147,61 @@
   font-size: 16px;
   color: rgba(14, 14, 14, 0.6);
 }
+
+/* recent news related styles  */
+.recent-section {
+  margin-top: 80px;
+}
+.recent-card img {
+  border-radius: 24px;
+}
+.recent-card {
+  display: flex;
+  gap: 32px;
+  background-color: #ffffff;
+  border-radius: 24px;
+  padding: 48px;
+  margin-bottom: 24px;
+}
+.recent-card-desc img {
+  width: 150px;
+  height: 50px;
+  margin-bottom: 12px;
+}
+.recent-card-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.recent-card-title {
+  font-size: 31px;
+  color: rgba(14, 14, 14, 0.8);
+}
+.date-time {
+  margin-top: 0px;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.7);
+}
+#space {
+  margin-right: 12px;
+}
+.recent-inner-desc {
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+  line-height: 24px;
+  margin-bottom: 28px;
+}
+.recent-btn .btn {
+  padding: 13px 26px;
+}
+.recent-btn .btn:hover {
+  background-color: rgba(84, 144, 245, 1);
+  transition: 0.7s;
+}
+
+/* row reverse  */
+.row-reverse {
+  flex-direction: row-reverse;
+}
+
