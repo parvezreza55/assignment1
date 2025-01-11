@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.fira-sans-regular {
+  font-family: "Fira Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/* shared styles  */
+.m-width {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.bg-green {
+  background-color: #c6e4d6;
+}
+.btn {
+  background-color: rgba(0, 106, 80, 1);
+  color: #ffffff;
+  padding: 17px 34px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.section-title {
+  font-size: 38px;
+  color: #0e0e0e;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+.section-desc {
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+  margin-bottom: 32px;
+}
+.bg-blue {
+  background-color: rgba(84, 144, 245, 0.2);
+}
+.bg-orange {
+  background-color: rgba(247, 235, 207, 1);
+}
+.bg-deepgreen {
+  background-color: rgba(9, 161, 92, 1);
+}
+.bg-deeporange {
+  background-color: rgba(255, 194, 57, 1);
+}
+.bg-deepblue {
+  background-color: rgba(84, 144, 245, 1);
+}
+
+/* banner related styles  */
+.section-banner {
+  margin-top: 120px;
+  padding: 80px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 24px;
+}
+.banner-heading {
+  font-size: 22px;
+  color: rgba(14, 14, 14, 0.5);
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.banner-desc {
+  font-size: 53px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+.banner-btn .btn:hover {
+  background-color: orange;
+  transition: 0.4s;
+}
+
+/* vision style  */
+.section-vision {
+  margin-top: 80px;
+}
+.card-container {
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 400px;
+  padding: 32px;
+  border-radius: 16px;
+}
+.card img {
+  width: 62px;
+  height: 62px;
+}
+.card-title {
+  font-size: 19px;
+  color: rgba(14, 14, 14, 0.8);
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+.card-desc {
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.7);
+  margin-bottom: 24px;
+}
+.card-btn .btn {
+  padding: 11px 20px;
+}
