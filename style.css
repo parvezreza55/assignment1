@@ -205,3 +205,42 @@
   flex-direction: row-reverse;
 }
 
+/* donate section  */
+.section-donate {
+  margin-top: 80px;
+}
+.section-donate .section-title,
+.section-desc {
+  text-align: center;
+}
+.donate-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 100px;
+}
+.donate-btn .donate {
+  border: none;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 16px;
+  font-size: 34px;
+  font-weight: 800;
+}
+.donate-input {
+  padding: 10px 120px;
+}
+.donate-input input {
+  width: 100%;
+  /* margin-bottom: 100px; */
+  border: none;
+  padding: 20px;
+  /* margin-top: 32px; */
+  margin-bottom: 20px;
+}
+.donate-input input::placeholder {
+  text-align: center;
+}
+.donate-btn1 {
+  text-align: center;
+  margin-top: 0px;
+}
