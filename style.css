@@ -28,6 +28,9 @@
   font-size: 16px;
   font-weight: 600;
 }
+.center {
+  text-align: center;
+}
 
 .section-title {
   font-size: 38px;
@@ -117,6 +120,18 @@
   padding: 11px 20px;
 }
 
+#btn1:hover {
+  background-color: rgba(79, 92, 37, 0.5);
+  transition: 0.8s;
+}
+#btn2:hover {
+  background-color: rgb(25, 250, 224);
+  transition: 0.8s;
+}
+#btn3:hover {
+  background-color: rgb(207, 125, 230);
+  transition: 0.8s;
+}
 /* comment section  */
 .section-comment {
   margin-top: 32px;
@@ -208,15 +223,31 @@
 /* donate section  */
 .section-donate {
   margin-top: 80px;
-}
-.section-donate .section-title,
-.section-desc {
-  text-align: center;
+  padding: 10px 70px;
 }
 .donate-container {
   display: flex;
   justify-content: space-between;
-  padding: 10px 100px;
+  padding: 10px 30px;
+}
+#dotane1:hover {
+  background-color: violet;
+  transition: 0.2s;
+}
+#dotane2 {
+  background-color: rgba(198, 228, 214, 1);
+}
+#dotane2:hover {
+  background-color: rgba(9, 161, 92, 1);
+  transition: 0.2s;
+}
+#dotane3:hover {
+  background-color: steelblue;
+  transition: 0.2s;
+}
+#dotane4:hover {
+  background-color: blueviolet;
+  transition: 0.2s;
 }
 .donate-btn .donate {
   border: none;
@@ -231,10 +262,9 @@
 }
 .donate-input input {
   width: 100%;
-  /* margin-bottom: 100px; */
   border: none;
   padding: 20px;
-  /* margin-top: 32px; */
+
   margin-bottom: 20px;
 }
 .donate-input input::placeholder {
@@ -243,4 +273,44 @@
 .donate-btn1 {
   text-align: center;
   margin-top: 0px;
+}
+.donate-btn1 .btn:hover {
+  background-color: rgb(104, 94, 193);
+  transition: 0.8s;
+}
+/* subscribe section  */
+.section-subscribe {
+  padding: 80px 260px;
+  border-radius: 24px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.section-subscribe .section-title {
+  text-align: center;
+}
+.subscribe-input {
+  margin-bottom: 24px;
+}
+input[type="email"] {
+  border: none;
+  padding: 20px 40px;
+  width: 78%;
+  border-radius: 8px 0px 0px 8px;
+}
+input[type="submit"] {
+  border: none;
+  padding: 19px 40px;
+  background-color: rgba(0, 106, 80, 1);
+  margin-left: -8px;
+  border-radius: 0px 8px 8px 0px;
+}
+input[type="submit"] {
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(161, 106, 106);
+  transition: 0.3s;
 }
