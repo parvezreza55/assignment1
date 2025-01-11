@@ -115,3 +115,33 @@
 .card-btn .btn {
   padding: 11px 20px;
 }
+
+/* comment section  */
+.section-comment {
+  margin-top: 32px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  padding: 34px 24px 48px 24px;
+}
+.section-comment1 {
+  background: url("assets/quote-bg.png");
+  background-repeat: no-repeat;
+  background-position: left top;
+  padding-top: 30px;
+}
+.comment-desc {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.8);
+  margin-bottom: 12px;
+}
+.speaker {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgba(14, 14, 14, 0.8);
+}
+.standing {
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.6);
+}
